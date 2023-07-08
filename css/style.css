@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-primary{
+    padding: 20px 35px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    background-color: #FD6E0A;
+    display: inline-block;
+    border-radius: 5px;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #181818;
+}
+p{
+    color: #757575;
+}
+color-3{
+    color: #474747;
+}
+
+/*-- header-section-start --*/
+.header-section{
+    background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, center left;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 230px 0;
+}
+.nav-logo{
+    text-decoration: none;
+}
+.nav-logo a{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+    text-decoration: none;
+}
+.nav-logo a span{
+    color: #FD6E0A;
+}
+.nav-bar-menu{
+    display: flex;
+    align-items: center;
+}
+.nav-bar-menu li{
+    list-style: none;
+    margin-left: 50px;
+}
+.nav-bar-menu li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+}
+.nav-bar-menu button{
+    border: none;
+}
+/*-- banner-section-start --*/
+.banner{
+    padding: 115px 30px 0px 230px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content h3{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-content h1{
+    font-size: 85px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.banner-content p{
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+.banner-content ul{
+    display: flex;
+}
+.banner-content ul li{
+    list-style: none;
+    margin-right: 30px;
+}
+.banner-content ul li .border-btn{
+    border: 1px solid #FD6E0A;
+    background-color: transparent;
+    color: #FD6E0A;
+}
+.banner-content ul li a{
+    text-decoration: none;
+}
+.banner-content ul li a i{
+    margin-right: 10px;
+}
+/*-- banner-section-end --*/
