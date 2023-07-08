@@ -25,7 +25,10 @@ p{
 color-3{
     color: #474747;
 }
-
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /*-- header-section-start --*/
 .header-section{
     background-color: #FFF8F3;
@@ -67,7 +70,7 @@ color-3{
 .nav-bar-menu button{
     border: none;
 }
-/*-- banner-section-start --*/
+/*-- banner-start --*/
 .banner{
     padding: 115px 30px 0px 230px;
     display: flex;
@@ -106,4 +109,110 @@ color-3{
 .banner-content ul li a i{
     margin-right: 10px;
 }
-/*-- banner-section-end --*/
+/*-- banner-end --*/
+/*-- hader-section- end --*/
+
+/*-- about-me-section start --*/
+.about-me{
+    background-color: #FFF8F3;
+    text-align: center;
+   margin-top: 130px;
+   margin-bottom: 130px;
+   padding: 130px 150px;
+   box-sizing: border-box;
+}
+.about-content h3{
+    font-size: 35px;
+    font-weight: 700;
+}
+.about-content > p{
+    margin: 30px 0;
+    padding: 0 60px;
+}
+.about-content ul{
+    display: flex;
+    justify-content: center;
+}
+.about-content li{
+    list-style: none;
+    margin: 0 25px;
+}
+.about-content li p{
+    margin-bottom: 12px;
+}
+/*-- about-me-section end --*/
+
+/*-- what-i-do-section start --*/
+.what-do{
+    text-align: center;
+}
+.what-do .commen-hadding{
+    margin-bottom: 50px;
+}
+.what-do .commen-hadding h3{
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+.what-dos{
+    display: flex;
+    text-align: left;
+    gap: 24px;
+}
+.what-dos .single-what-do{
+    padding: 30px 33px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+/*-- what-i-do-section end --*/
+
+/*-- summary-section start --*/
+.summary{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.summary .summary-hadding h3{
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+    margin-bottom: 110px;
+    font-weight: 700;
+}
+.summary .summary-contant{
+    display: flex;
+    gap: 24px;
+}
+.summary .single-summary{
+    padding: 0 40px 0 40px;
+}
+.summary .single-summary h5{
+    font-size: 30px;
+    font-weight: 700;
+}
+.summary .single-summary h6{
+    font-size: 25px;
+    font-weight: 700;
+    margin: 30px 0 10px 0;
+}
+.summary .single-summary span{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+    display: block;
+}
+.summary .single-summary p{
+    margin-bottom: 30px;
+}
+.summary .single-summary hr{
+    margin-bottom: 30px;
+}
+.summary .summary-btn{
+    text-align: center;
+    margin-top: 30px;
+}
+.summary .summary-btn .btn-primary{
+    border: none;
+}
+/*-- summary-section end --*/
